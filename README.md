@@ -5,6 +5,7 @@ This is a basic react-app template build using webpack. It provides a simple and
 ### Features
 
 - React 18
+- tailwindcss
 - webpack 5
 - Babel for transpiling JSX and ES6
 - scss,CSS and style loading support
@@ -63,6 +64,7 @@ react-template-webpack/
 ├── src/
 │   │
 │   ├── App.jsx
+│   ├── main.scss
 │   ├── index.js
 │   └── ...
 ├── dist/
@@ -72,6 +74,8 @@ react-template-webpack/
 ├── babel.config.json
 ├── .eslintrc.js
 ├── .gitignore
+├── tailwind.config.js
+├── postcss.config.js
 ├── package.json
 ├── webpack.common.js
 ├── webpack.dev.js
@@ -91,6 +95,10 @@ react-template-webpack/
 - **.gitignore** : Gitignore file to specify files and directories to ignore in version control.
 
 - **package.json** : The project's configuration file that lists dependencies, scripts, and other project settings.
+
+- **postcss.config.js** : basics postcss configuration file
+
+- **tailwindcss.config.js** : basic tailwindcss configuration file
 
 - **webpack.common.js** : Webpack configuration file that defines how your application is bundled and processed .
 - **webpack.dev.js** : Webpack configuration file for development environment
